@@ -3,8 +3,8 @@ plugins {
     id 'maven'
 }
 
-group 'cn.enaium'
-version '1.0.1'
+group 'com.borber'
+version '1.0.2'
 
 repositories {
     mavenCentral()
@@ -26,7 +26,7 @@ task sourcesJar(type: Jar, dependsOn: classes) {
 
 uploadArchives {
     repositories.mavenDeployer {
-        repository(url: "file://${new File(System.getenv('MAVEN_URL'))}")
+        repository(url: "file://maven")
     }
 }
 artifacts { archives sourcesJar }

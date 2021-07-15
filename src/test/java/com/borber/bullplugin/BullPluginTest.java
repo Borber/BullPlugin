@@ -1,4 +1,4 @@
-package cn.enaium.bullplugin;
+package com.borber.bullplugin;
 
 import org.junit.jupiter.api.Test;
 

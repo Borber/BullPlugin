@@ -22,6 +22,8 @@ classes/
 
 target/
 
+maven/
+
 #vuepress
 
 doc-src/node_modules

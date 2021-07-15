@@ -1,4 +1,4 @@
-package cn.enaium.bullplugin.annotations;
+package com.borber.bullplugin.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
